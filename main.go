@@ -12,8 +12,8 @@ import (
 
 func main() {
 	//http://18.119.14.15:3000/api/v2/pokemon  - https://pokeapi.co/api/v2/pokemon/?offset=0&limit=1118
-	os.Setenv("PokemonURL", "http://18.119.14.15:3000/api/v2/pokemon")
-	//os.Setenv("PokemonURL", "https://pokeapi.co/api/v2/pokemon/?offset=0&limit=1118")
+	//os.Setenv("PokemonURL", "http://18.119.14.15:3000/api/v2/pokemon")
+	os.Setenv("PokemonURL", "https://pokeapi.co/api/v2/pokemon/?offset=0&limit=1118")
 
 	/*
 		r := gin.Default()

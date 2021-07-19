@@ -53,6 +53,7 @@ func (filters *Filters) WeightAndHeight(height int, weight int) ([]*models.Pokem
 	for pokemons := range pokemonChannel {
 		arr = append(arr, pokemons)
 	}
+	//Abrir dos go rutinas diferentes, una para pokemones y otra para errores
 	for er := range errChannel {
 		errs = append(errs, er)
 	}
